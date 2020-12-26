@@ -1,0 +1,43 @@
+#!/usr/bin/jembod
+
+import os, sys, time
+
+def s():
+	os.system('clear')
+
+def pres():
+	print '\a'
+	back = raw_input('>>> ')
+	os.system('cd ..;bash birdfly.sh')
+
+jembod = '\033[1;31m+++++++++++++++++++JAI-BIHAR+++++++++++++++++++\033[1;33m'
+kontol = '\033[1;31m:\033[1;33m'
+
+user = raw_input('[*] What is your name ? :')
+
+s()
+words = ('''\033[1;33m
+Hello %s.
+Welcome to BIRD-FLY Tool !
+about:
+
+Author     %s SACHIN_GUPTA [MR.X]
+updated    %s 18-11-2020
+version    %s 2.0
+CONTACT WITH ME %s WHAT'SAPP NO. +918340635197
+
+       %sEK BIHARI SAU PE BHARI%s
+
+%s
+
+Thanks for using
+this tool.../
+
+  I LOVE MY INDIA 
+
+''' % (user, kontol, kontol, kontol, kontol, kontol, kontol, jembod,))
+for char in words:
+    time.sleep(0.1)
+    sys.stdout.write(char)
+    sys.stdout.flush()
+pres()
