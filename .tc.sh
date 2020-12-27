@@ -72,4 +72,4 @@ bash birdfly.sh
 ;;
 
 esac
-bash tc.sh
+bash .tc.sh
