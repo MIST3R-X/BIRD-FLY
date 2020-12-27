@@ -58,6 +58,7 @@ echo -e " \e[33m5️⃣ GET INFO "
 echo -e " \e[33m6️⃣ GET A NOTIFICATION "
 echo -e " \e[33m7️⃣ CALL [TYPE NUMBER & CALL] "
 echo -e " \e[33m8️⃣ AUTHOR  "
+echo -e " \e[33m9️⃣ UPDATE  "
 echo -e " \e[31m *NOTE: IF U WANT EXIT THIS TOOL TO PRESS CTRL+C "
 echo -e "\e[32m=====================================================\e[0m"
 echo -e "\e[97m*****************************************************\e[0m"
@@ -97,6 +98,10 @@ bash .call.sh
 
 "8")
 python2 .info
+;;
+
+"9")
+bash .update
 ;;
 
 esac
