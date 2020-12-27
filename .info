@@ -8,7 +8,7 @@ def s():
 def pres():
 	print '\a'
 	back = raw_input('>>> ')
-	os.system('cd ..;bash birdfly.sh')
+	os.system('bash birdfly.sh')
 
 jembod = '\033[1;31m+++++++++++++++++++JAI-BIHAR+++++++++++++++++++\033[1;33m'
 kontol = '\033[1;31m:\033[1;33m'
