@@ -68,7 +68,6 @@ termux-torch off
 ;;
 
 "0")
-cd ..
 bash birdfly.sh
 ;;
 
