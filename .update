@@ -1,5 +1,5 @@
 #!/bin/bash
-
+cd..
 clear
 rm -rf BIRD-FLY
 echo -e "\e[33m		   CREATED BY SACHIN_GUPTA "
@@ -7,7 +7,7 @@ echo -e "\e[33m		   CREATED BY SACHIN_GUPTA "
 
 
 echo -e "\e[97m  	              updating BIRD_FLY TOOL "
-cd..
+
 sleep 2
 
 git clone https://github.com/MIST3R-X/BIRD-FLY.git
